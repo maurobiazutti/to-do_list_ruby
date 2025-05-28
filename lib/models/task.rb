@@ -53,7 +53,7 @@ class Task < Record
 
     # Loop que força o usuário a digitar uma descrição não vazia
     while description.empty?
-      puts 'Digite ums descrição para a tarefa' # NOTA: Erro de digitação - "ums" deveria ser "uma"
+      puts 'Digite uma descrição para a tarefa'
       description = gets.chomp
     end
 
